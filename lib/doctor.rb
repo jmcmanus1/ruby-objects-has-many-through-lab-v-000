@@ -12,6 +12,8 @@ class Doctor
   end
 
   def patients
+    self.appointments.select do |appointment|
+      appointment.doctor = self
+    end
   end
-
 end
