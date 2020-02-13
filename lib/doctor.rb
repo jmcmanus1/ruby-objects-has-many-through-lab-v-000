@@ -1,3 +1,5 @@
+require 'pry'
+
 class Doctor
   attr_accessor :appointments
   attr_reader :name
